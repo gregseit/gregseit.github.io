@@ -1,0 +1,28 @@
+:root {
+  --base-tone: #f9f7f7;
+  --light-tone: #dbe2ef;
+  --mid-tone: #3f72af;
+  --drak-tone: #112d4e;
+}
+body {
+  background-color: var(--base-tone);
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 0.4rem;
+  border-color: var(--light-tone);
+  width: 5%;
+}
+h1 {
+  color: var(--mid-tone);
+}
+h3 {
+  color: var(--mid-tone);
+}
+.years {
+  padding: 0 1rem 0 0;
+}
+.skills {
+  padding: 0 5rem 0 0;
+}
